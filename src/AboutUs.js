@@ -24,7 +24,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="flex-1 order-first md:order-last z-10 img-outline-right max-h-[350px]">
-            <img src="/img/stock/code-snippets.png" alt="" className="w-full h-full object-cover object-[0_0]  " />
+            <img src="/img/stock/tinified/code-snippets.png" alt="" className="w-full h-full object-cover object-[0_0]  " />
           </div>
         </div>
         <div className="py-12">

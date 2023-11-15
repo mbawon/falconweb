@@ -1,22 +1,11 @@
 import { Link } from "react-scroll"
-import { useRef, useEffect } from "react"
+import { useRef, useEffect, useState } from "react"
+import { Blurhash } from "react-blurhash"
+
 const Header = () => {
   const heroImage = useRef()
-  // useEffect(() => {
-    // console.log("🚀 ~ file: Header.js:5 ~ Header ~ heroImage:", heroImage)
-    // const showImage = () => {
-    //   heroImage.current.style.opacity = 1
-    // }
-    // if (heroImage.current.complete) {
-    //   showImage()
-    //   console.log("image loaded")
-    // } else {
-    //   heroImage.current.addEventListener("load", showImage)
-    // }
-    // return () => {
-    //   heroImage.current.removeEventListener("load", showImage)
-    // }
-  // }, [])
+  const [imageLoaded, setImageLoaded] = useState(false)
+
   return (
     <section id="hero" className="bg-gray-100 ">
       <div className="container flex flex-col md:flex-row gap-5 items-center pr-4 py-14 pt-20 mx-auto">
@@ -32,16 +21,23 @@ const Header = () => {
         <div className="img-outline-right flex-1 order-first md:order-last animate-slide-in2 z-10 self-stretch  bg-gray-300">
           <img
             ref={heroImage}
-            // style={{ opacity: 0 }}
-            src="/img/stock/twopeople.jpg"
+            src="/img/stock/tinified/twopeople.jpg"
             alt=""
-            className="w-full h-full object-cover"
-            // onLoad={() => {
-            //   heroImage.current.style.opacity = 1
-            // }}
+            className={`hero-image w-full h-full object-cover ${imageLoaded ? "opacity-100" : "opacity-0"}`}
+            onLoad={() => {
+              setImageLoaded(true)
+            }}
           />
+
+          {!imageLoaded && (
+            <div className="absolute inset-0">
+              <Blurhash hash="LUF~aT.A.AkD_3ROawROyDaJS5ae" width={"100%"} height={"100%"} />
+            </div>
+          )}
         </div>
       </div>
+
+      <input></input>
     </section>
   )
 }

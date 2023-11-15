@@ -50,38 +50,38 @@
     {
       "id": 1,
       "name": "Requirements Gathering",
-      "image": "/img/stock/pexels2.jpg",
+      "image": "/img/stock/tinified/pexels2.jpg",
       "description": "In this initial stage, our solution architect and development team work closely with our clients to understand and document the requirements. This includes functional and non-functional requirements. The outcome of this stage is a detailed requirements specification that serves as the foundation for the project."
     },
     {
       "id": 2,
       "name": "Planning",
-      "image": "/img/stock/meeting.jpg",
+      "image": "/img/stock/tinified/meeting.jpg",
       "description": "Planning involves defining the project scope, objectives, budget, and timeline. Our project managers create a project plan, outlining tasks, resources, and a schedule for the entire software development process. Risks are assessed and mitigation strategies established"
     },
     {
       "id": 3,
       "name": "Design",
       "test": "design",
-      "image": "/img/stock/pexels-kampus.jpg",
+      "image": "/img/stock/tinified/pexels-kampus.jpg",
       "description": "During the design stage, the software architecture and high-level design are developed based on the requirements gathered. Detailed designs for each component of the software are created, specifying how they will interact, data structures, algorithms, and user interfaces. Our design documentation is crucial for guiding the development phase."
     },
     {
       "id": 4,
       "name": "Implementation",
-      "image": "/img/stock/pexels22.jpg",
+      "image": "/img/stock/tinified/pexels22.jpg",
       "description": "In this phase, our developers write the actual code for the software based on the design specifications. They follow coding standards and best practices, and the code is thoroughly reviewed to ensure it meets quality and security standards."
     },
     {
       "id": 5,
       "name": "Testing",
-      "image": "/img/stock/pexels-gustavo.jpg",
+      "image": "/img/stock/tinified/pexels-gustavo.jpg",
       "description": "In this stage we rigorously test the software to identify and fix defects and ensure it functions as expected. Various testing types are employed, including unit testing, integration testing, system testing, and user acceptance testing (UAT)"
     },
     {
       "id": 6,
       "name": "Deployment",
-      "image": "/img/stock/pexels-andrea-piacquadio-3801426.jpg",
+      "image": "/img/stock/tinified/pexels-andrea-piacquadio-3801426.jpg",
       "description": "Once the software passes all tests and is deemed ready for production, it is deployed to the target environment."
     }
   ]

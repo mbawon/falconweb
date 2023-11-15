@@ -169,3 +169,4 @@ footer * {
 input[type="submit"]:disabled {
   @apply cursor-not-allowed opacity-80 bg-black hover:bg-black;
 }
+

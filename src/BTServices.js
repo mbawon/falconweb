@@ -17,8 +17,8 @@ const BTServices = () => {
             </p>
           </div>
         </div>
-        <div className="img-outline-left flex-1  order-first max-h-[400px] z-10 overflow-hidden">
-          <img src="/img/stock/app.jpg" alt="" className="w-full h-full object-cover object-center" />
+        <div className="img-outline-left flex-1  order-first max-h-[400px] z-10">
+          <img src="/img/stock/tinified/app.jpg" loading="lazy" alt="" className="w-full h-full object-cover object-center" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-5  px-lg:pr-14 py-14 pt-20">
@@ -36,7 +36,7 @@ const BTServices = () => {
           </div>
         </div>
         <div className="img-outline-right flex-1 order-first md:order-last 2 z-10">
-          <img src="/img/stock/programmer.jpg" alt="web development" className="w-full h-full object-cover object-center" />
+          <img src="/img/stock/tinified/programmer.jpg" loading="lazy" alt="web development" className="w-full h-full object-cover object-center" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row gap-5 items-stalg:pr-14 py-14 pt-20">
@@ -55,7 +55,7 @@ const BTServices = () => {
           </div>
         </div>
         <div className="img-outline-left flex-1 order-first 2 z-10">
-          <img src="/img/stock/ussd1.jpg" alt="" className="w-full h-full object-cover object-[20%_0]" />
+          <img loading="lazy" src="/img/stock/tinified/ussd1.jpg" alt="" className="w-full h-full object-cover object-[20%_0]" />
         </div>
       </div>
     </section>
